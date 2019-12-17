@@ -18,6 +18,7 @@ function reverse(str) {
   // return reversed
 
   //#3 third solution
+  // debugger;
   return str.split('').reduce((reversed, character) => character + reversed, '')
 }
 
